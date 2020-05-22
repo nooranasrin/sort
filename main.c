@@ -78,7 +78,7 @@ int main(void) {
 
   printf("\nBubble Sort list :\n");
   list = create_list();
-  num1 = 4, num2 = 3, num3 = 2, num4 = 1;
+  num1 = 1, num2 = 2, num3 = 3, num4 = 4;
   add_to_list(list, &num1);
   add_to_list(list, &num2);
   add_to_list(list, &num3);
