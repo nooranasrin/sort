@@ -11,6 +11,9 @@ typedef enum
 
 typedef Status (*Matcher)(Element, Element);
 
+void swap_array_elements(ArrayVoid_ptr array, int first_index, int second_index);
+void swap_node(Node_ptr node1, Node_ptr node2);
+
 void perform_selection_sort(ArrayVoid_ptr array, Matcher is_equal);
 void perform_bubble_sort(ArrayVoid_ptr array, Matcher is_equal);
 void perform_insertion_sort(ArrayVoid_ptr array, Matcher is_equal);
