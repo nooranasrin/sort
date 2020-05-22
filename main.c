@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include "sort.h"
+#include "datastructures.h"
 
 Status is_int_smaller(Element num1, Element num2) {
   return *(int *)num1 < *(int *)num2;
